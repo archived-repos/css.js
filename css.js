@@ -35,7 +35,7 @@
 		}
 	} else {
 		if ( window.fn ) {
-			fn.define('css', inject());
+			fn.define('css', inject);
 		} else if( !window.css ) {
 			window.css = inject();
 		}
